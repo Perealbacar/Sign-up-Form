@@ -42,16 +42,21 @@
         <div>
           <label for="mail">EMAIL</label>
           <input type="email" placeholder="john@explora.com" id="mail" name="mail" required/>
+        </div>
+        <div>
+          <label for="phone">PHONE</label>
+          <input type="tel" placeholder="john@explora.com" id="phone" required>
+        </div>
+        <div class="break"></div>
+        <div>
           <label for="pwd">PASSWORD</label>
           <input type="password" id="pwd" name="pwd" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required/>
         </div>
-        <div>
-          
-          <label for="phone">PHONE</label>
-          <input type="tel" placeholder="john@explora.com" id="phone" required>
+        <div>          
           <label for="pwd-confirm">CONFIRM PASSWORD</label>
           <input type="password" id="pwd-confirm" name="pwd-confirm" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required>
-        </div>      
+        </div>
+        <div class="break"></div>   
       
       </fieldset>
       <button type="submit">Create Account</button>
